@@ -1,0 +1,131 @@
+.GoodsUploadTemplate{
+  min-height: 970px;
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  border: 1px solid gainsboro;
+}
+
+.GoodsUploadTemplate>div {
+  padding: 24px 32px;
+  border-bottom: 1px solid gray;
+}
+
+.GoodsUploadHead {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+}
+
+.GoodsUploadHeader {
+  font-size: 20px;
+}
+
+.submit-button{
+  background-color: skyblue;
+  border: 1px solid gray;
+  padding: 5px 8px;
+}
+
+#submit[type="submit"], #imgFile[type="file"] {
+  display: none;
+}
+
+.GoodsImgUploadBlock {
+  height: auto;
+  display: flex;
+}
+
+.imgSelect {
+  box-sizing: border-box;
+  min-width: 55px;
+  max-height: 55px;
+  width: auto; height: auto;
+  border: 1px solid gray;
+  border-radius: 5%;
+  vertical-align: center;
+  text-align: center;
+  padding-top: 5px;
+  margin-right: 25px;
+}
+
+.imgResult {
+  box-sizing: border-box;
+  min-height: 55px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.deleteIcons {
+  position: relative;
+  left: 63px;
+  bottom: 7px;
+  vertical-align: top;
+  z-index: 5;
+  color: blue;
+}
+
+img{
+  box-sizing: border-box;
+  width: 55px; height: 55px;
+  border: 1px solid gray;
+  border-radius: 5%;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+input[type="text"] {
+  border: none;
+  background: transparent;
+}
+
+.GoodsUploadTitleBox {
+  width: 100%;
+  padding: .5em 0;
+  cursor: text;
+  outline-style: none;
+}
+
+.GoodsUploadCategory {
+  display: flex;
+  justify-content: space-between;
+}
+
+.GoodsUploadPrice {
+  display: flex;
+  justify-content: space-between;
+}
+
+.GoodsUploadPriceBox {
+  width: 50%;
+  padding: .5em 0;
+  cursor: text;
+  outline-style: none;
+}
+
+.GoodsUploadContents {
+  height: 480px;
+  vertical-align: top;
+}
+
+#goodsContents {
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+  border: none;
+  background: transparent;
+}
+
+.GoodsUploadFooter {
+  border-bottom: none;
+  display: flex;
+}
+
+.GoodsUploadFooter div {
+  margin-right: 15px;
+}

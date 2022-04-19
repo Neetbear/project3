@@ -1,0 +1,121 @@
+.GoodsPgTemplate {
+  min-height: 970px;
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  border: gainsboro;
+}
+
+.GoodsPgTemplate a {
+  text-decoration: none;
+  color: white;
+}
+
+.GoodsPgNav {
+  position: absolute;
+  left: 71%;
+  padding: 24px 32px;
+  display: flex;
+  color: white;
+}
+
+.GoodsPgEdit {
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+.GoodsImages {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid gray;
+}
+
+.GoodsImages img {
+  width: 100%;
+  height: auto;
+}
+
+.GoodsPgUserInfo {
+  padding: 24px 32px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+}
+
+.GoodsPgUserInfoLeft {
+  display: flex;
+}
+
+.GoodsPgUserImg {
+  width: 50px; height: 50px;
+  border: 1px solid skyblue;
+  border-radius: 50%;
+  background-image: url('./1077114.png');
+  background-size: contain;
+}
+
+.GoddsPgUser div{
+  margin: 5px 10px;
+  font-weight: bold;
+}
+
+.GoodsPgUserInfoRight div {
+  margin: 3px 0;
+}
+
+.GoodsPgUserTemp {
+  display: flex;
+  color: blue;
+  font-weight: bolder;
+}
+
+.GoodsPgContent {
+  height: auto;
+  padding: 24px 32px 20px 32px; 
+  border-bottom: 1px solid gray;
+}
+
+.GoodsPgContent div {
+  margin-bottom: 5px;
+}
+
+.GoodsPgContentDb {
+  min-height: 100px;
+}
+
+.GoodsPgContentBottom {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.GoodsPgContentBottom div {
+  margin-right: 10px;
+  display: flex;
+}
+
+.GoodsPgChat{
+  background: skyblue;
+  border-radius: 10%;
+  font-size: 18px;
+  padding: 4px 6px;
+  font-weight: bolder;
+}
+
+.GoodsPgReport {
+  padding: 24px 32px;
+  border-bottom: 1px solid gray;
+}
+
+.GoodsPgUsersGoods {
+  padding: 24px 32px;
+  border-bottom: 1px solid gray;
+}
+
+.GoodsPgUserGoodsUserid {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
